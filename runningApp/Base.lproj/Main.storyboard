@@ -310,6 +310,14 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="endRunButton" translatesAutoresizingMaskIntoConstraints="NO" id="mVk-oc-5TS">
                                 <rect key="frame" x="54.5" y="561" width="57" height="57"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="End Run" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kHf-Mi-HPm">
+                                <rect key="frame" x="139" y="576" width="77.5" height="27.5"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="shadowOffset" width="0.0" height="0.0"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -325,9 +333,11 @@
                             <constraint firstItem="2vH-rY-OuI" firstAttribute="leading" secondItem="9H7-aF-5XZ" secondAttribute="leading" id="W89-Un-ost"/>
                             <constraint firstItem="nK2-0t-wQG" firstAttribute="leading" secondItem="mVk-oc-5TS" secondAttribute="trailing" constant="-65" id="Yui-AC-Xee"/>
                             <constraint firstItem="nK2-0t-wQG" firstAttribute="centerY" secondItem="mVk-oc-5TS" secondAttribute="centerY" id="ZIs-bB-FFz"/>
+                            <constraint firstItem="kHf-Mi-HPm" firstAttribute="centerX" secondItem="nK2-0t-wQG" secondAttribute="centerX" constant="15" id="a5x-bH-hhJ"/>
                             <constraint firstItem="2vH-rY-OuI" firstAttribute="top" secondItem="9H7-aF-5XZ" secondAttribute="top" id="gMs-bI-p5x"/>
                             <constraint firstItem="E5V-pL-mg9" firstAttribute="top" secondItem="vnH-fa-lNc" secondAttribute="bottom" constant="20" id="hxo-qJ-cNX"/>
                             <constraint firstItem="vnH-fa-lNc" firstAttribute="leading" secondItem="9H7-aF-5XZ" secondAttribute="leading" id="k71-0U-7qW"/>
+                            <constraint firstItem="kHf-Mi-HPm" firstAttribute="centerY" secondItem="nK2-0t-wQG" secondAttribute="centerY" id="mLo-fH-2hP"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="9H7-aF-5XZ"/>
                     </view>
