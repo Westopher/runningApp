@@ -300,15 +300,31 @@
                                     <constraint firstAttribute="trailing" secondItem="f8n-56-RV7" secondAttribute="trailing" id="vU3-gD-czh"/>
                                 </constraints>
                             </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="endRunOutline" translatesAutoresizingMaskIntoConstraints="NO" id="nK2-0t-wQG">
+                                <rect key="frame" x="46.5" y="552" width="232" height="75"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qIi-SB-g1f">
+                                <rect key="frame" x="257" y="552" width="75" height="75"/>
+                                <state key="normal" image="pauseButton"/>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="endRunButton" translatesAutoresizingMaskIntoConstraints="NO" id="mVk-oc-5TS">
+                                <rect key="frame" x="54.5" y="561" width="57" height="57"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="vnH-fa-lNc" firstAttribute="top" secondItem="9H7-aF-5XZ" secondAttribute="top" constant="10" id="4N5-4Y-wZE"/>
+                            <constraint firstItem="qIi-SB-g1f" firstAttribute="centerY" secondItem="nK2-0t-wQG" secondAttribute="centerY" id="5JM-wA-Rud"/>
                             <constraint firstAttribute="trailing" secondItem="2vH-rY-OuI" secondAttribute="trailing" id="5OL-P0-5JU"/>
                             <constraint firstItem="vnH-fa-lNc" firstAttribute="trailing" secondItem="9H7-aF-5XZ" secondAttribute="trailing" id="5eA-w8-vaI"/>
                             <constraint firstItem="E5V-pL-mg9" firstAttribute="centerX" secondItem="dBd-fX-sw7" secondAttribute="centerX" id="DOg-P2-iUf"/>
                             <constraint firstAttribute="bottom" secondItem="2vH-rY-OuI" secondAttribute="bottom" id="Enk-OR-r7p"/>
+                            <constraint firstItem="9H7-aF-5XZ" firstAttribute="bottom" secondItem="nK2-0t-wQG" secondAttribute="bottom" constant="40" id="LK1-fu-IEt"/>
+                            <constraint firstItem="nK2-0t-wQG" firstAttribute="centerX" secondItem="dBd-fX-sw7" secondAttribute="centerX" constant="-25" id="MCx-KF-E3j"/>
+                            <constraint firstItem="qIi-SB-g1f" firstAttribute="leading" secondItem="nK2-0t-wQG" secondAttribute="trailing" constant="-21.5" id="MFj-bu-PSp"/>
                             <constraint firstItem="2vH-rY-OuI" firstAttribute="leading" secondItem="9H7-aF-5XZ" secondAttribute="leading" id="W89-Un-ost"/>
+                            <constraint firstItem="nK2-0t-wQG" firstAttribute="leading" secondItem="mVk-oc-5TS" secondAttribute="trailing" constant="-65" id="Yui-AC-Xee"/>
+                            <constraint firstItem="nK2-0t-wQG" firstAttribute="centerY" secondItem="mVk-oc-5TS" secondAttribute="centerY" id="ZIs-bB-FFz"/>
                             <constraint firstItem="2vH-rY-OuI" firstAttribute="top" secondItem="9H7-aF-5XZ" secondAttribute="top" id="gMs-bI-p5x"/>
                             <constraint firstItem="E5V-pL-mg9" firstAttribute="top" secondItem="vnH-fa-lNc" secondAttribute="bottom" constant="20" id="hxo-qJ-cNX"/>
                             <constraint firstItem="vnH-fa-lNc" firstAttribute="leading" secondItem="9H7-aF-5XZ" secondAttribute="leading" id="k71-0U-7qW"/>
@@ -342,6 +358,9 @@
     <resources>
         <image name="BG" width="375" height="667"/>
         <image name="centerNavButton" width="58" height="58"/>
+        <image name="endRunButton" width="57" height="57"/>
+        <image name="endRunOutline" width="232" height="75"/>
+        <image name="pauseButton" width="75" height="75"/>
         <image name="startRunningButton" width="71" height="71"/>
         <image name="tabbar-myLogIconGray" width="25" height="25"/>
         <image name="tabbar-runIcon" width="27" height="28"/>
